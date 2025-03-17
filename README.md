@@ -1,9 +1,11 @@
 import random
+
 '''
 1 for snake
 -1 for water 
 0 for gun
 '''
+
 computer = random.choice([-1, 0, 1])
 youstr = input("Enter your choice: ")
 you = {"s": 1, "w": -1, "g": 0}
@@ -20,7 +22,7 @@ if(computer == you):
 
 else:
     '''
-     if(computer ==-1 and you == 1): (computer - you) = -2
+    if(computer ==-1 and you == 1): (computer - you) = -2
         print("You win!")
 
     elif(computer ==-1 and you == 0): (computer - you) = -1
